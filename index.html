@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Snoopy Love</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="background" id="bg">
+  <div class="cloud one"></div>
+  <div class="cloud two"></div>
+  <div class="cloud three"></div>
+  <div class="star one"></div>
+  <div class="star two"></div>
+  <div class="star three"></div>
+  <div class="star four"></div>
+</div>
+
+<div class="container">
+  <!-- SNOOPY -->
+  <img class="snoopy" id="snoopy" src="img/snoopy love.png" alt="Snoopy" onclick="openLetter()">
+
+  <!-- CARTA -->
+  <div class="envelope hidden" id="envelope">
+    <div class="flap" id="flap"></div>
+    <div class="letter" id="letter">
+      <div class="text" id="message"></div>
+    </div>
+  </div>
+
+  <img class="kuromi hidden" id="kuromi" src="IMG/kuromi.png" alt="Kuromi">
+</div>
+
+<!-- AUDIO -->
+<audio id="music">
+  <source src="MP3/I Wanna Be Yours (mp3cut.net).mp3" type="audio/mpeg">
+</audio>
+
+<script src="js/script.js"></script>
+</body>
+</html>
